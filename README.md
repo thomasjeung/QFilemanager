@@ -7,6 +7,21 @@ made in Linux Mint 19
 - python 3
 - PyQt5
 
+## Install
+git clone http://github.com/thomasjeung/QFileManager
+cd .\QFileManager\
+py -m pip install --upgrade pip
+py -m pip install --user virtualenv
+py -m venv env
+
+.\env\Scripts\activate
+py -m pip install --upgrade pip
+py -m pip install pyqt5
+py -m pip install pyqtwebengine
+
+python .\QFileManager.py
+
+
 ### Features:
 - drag and drop Files to copy (SHIFT to move)
 - open Files with default app
