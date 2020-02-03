@@ -18,6 +18,7 @@ py -m venv env
 py -m pip install --upgrade pip
 py -m pip install pyqt5
 py -m pip install pyqtwebengine
+py -m pip install send2trash
 
 python .\QFileManager.py
 
